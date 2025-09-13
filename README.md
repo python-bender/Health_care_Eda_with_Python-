@@ -13,6 +13,29 @@ This project explores **healthcare data** using **Python**. It focuses on data c
 - `HealthcareRawData.csv` → Dataset used
 - `README.md` → Project documentation
 
+## 📊 Key Findings
+
+- 👩 **Gender**: Female patients booked more appointments compared to male patients.  
+- 👶 **Age Groups**: Show/no-show ratios are almost equal across age groups, except for **Age 0 and Age 1**, where the show rate is **~80%**.  
+- 🏘 **Neighbourhoods**: Most neighbourhoods recorded a consistent **~80% show rate**.  
+- 🎓 **Scholarship**:  
+  - 99,666 patients without a scholarship → ~80% showed up.  
+  - 21,801 patients with a scholarship → ~75% showed up.  
+- ❤️ **Hypertension**:  
+  - 88,726 patients without hypertension → ~78% showed up.  
+  - 21,801 patients with hypertension → ~85% showed up.  
+- 💉 **Diabetes**:  
+  - 102,584 patients without diabetes → ~80% showed up.  
+  - 7,943 patients with diabetes → ~83% showed up.  
+- 📩 **SMS Reminder**:  
+  - 75,045 patients who did **not** receive SMS → ~84% showed up.  
+  - 35,482 patients who received SMS → only ~72% showed up.  
+- 📅 **Day of the Week**:  
+  - **No appointments on Sunday**.  
+  - **Very few on Saturday** compared to weekdays.  
+
+---
+
 ## ⚙️ Technologies Used
 - Python (Anaconda Distribution)
 - Pandas
